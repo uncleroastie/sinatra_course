@@ -94,7 +94,7 @@ def mayGameContinue(game, person)
         if (person == :player)
             game[:dealer].loss = true
             game[:player].win = true
-            game[:wiiner] = :player
+            game[:winner] = :player
         else
             game[:player].loss = true
             game[:dealer].win = true
